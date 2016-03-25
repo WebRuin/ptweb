@@ -63,7 +63,7 @@
 }
 
 #container #centerblock #left p {
-	font-size: 18px;
+	font-size: 1.15rem;
 	font-weight: bold;
 	font-variant: normal;
 	padding-top: 0px;
@@ -97,8 +97,9 @@
 	font-size: 1.5rem;
 }
 
-#container #centerblock #form p{
-	font-size: 1.2rem;
+#container #centerblock #form p,
+#container #centerblock #form ul > li{
+	font-size: 1.15rem;
 }
 
 #container #centerblock #form .ad {
