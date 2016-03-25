@@ -1,0 +1,11 @@
+#### CC BEGIN WEBSITE ACCESS MANAGER ####
+
+AuthUserFile /home/ptsite/www/ptwebsiteservices.com/.htpasswd
+AuthName "Members Only"
+AuthType Basic
+
+# Access Restriction:
+Require user test
+order deny,allow
+
+#### CC END WEBSITE ACCESS MANAGER ####

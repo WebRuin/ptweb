@@ -1,0 +1,66 @@
+h2{
+  font-size: 1.25rem;
+  display: block;
+}
+
+.style1 {
+	color: #1E4C59;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.style2 {
+	color: #1E4C59;
+	font-size: 10px;
+	font-family: tahoma;
+}
+.style3 {
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.style4 {
+	color: #144A54;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style5 {
+	color: #FFF8FF;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style7 {
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.style8 {
+	color: #333333;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #144A54;
+	text-decoration: none;
+}
+a:visited {
+	color: #144A54;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+a:active {
+	color: #476C7E;
+	text-decoration: none;
+}
+body {
+	background-color: #144F57;
+}
+.head {
+	font-size: 18px;
+	font-weight: bold;
+}

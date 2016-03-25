@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width: 1000px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+#container #header {
+	float: left;
+	width: 1000px;
+	height: 280px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #333;
+	background-color: #000;
+}
+#header #nav {
+	clear: none;
+	float: left;
+	height: 40px;
+	width: 810px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	color: #FFF;
+}
+
+#centerblock #form #hislider1 {
+	clear: both;
+	float: left;
+	height: 500px;
+	width: 400px;
+	margin-top: 100px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+#container #centerblock {
+	clear: left;
+	float: left;
+	width: 1000px;
+	border: 1px solid #333;
+}
+#container #centerblock2 {
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+#container #centerblock #left {
+	width: 220px;
+	float: left;
+}
+
+#container #centerblock #left img {
+	padding: 0.5rem;
+}
+
+#container #centerblock #left p {
+	font-size: 18px;
+	font-weight: bold;
+	font-variant: normal;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+#centerblock #left #spacelft {
+	clear: left;
+	float: left;
+	height: 180px;
+	width: 40px;
+}
+
+#container #centerblock #form {
+	width: 670px;
+	background-color: #000;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	float: right;
+	clear: none;
+	height: 700px;
+	margin: 0px;
+}
+
+#container #centerblock #form h3{
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+#container #centerblock #form p{
+	font-size: 1.2rem;
+}
+
+#container #centerblock #form .ad {
+	height: 134px;
+	display: block;
+	margin: 0px auto;
+	width: 240px;
+}
+
+#centerblock #form2 {
+	background-color: #666;
+	clear: none;
+	float: left;
+	width: 670px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#centerblock #form3 {
+	background-color: #666;
+	clear: none;
+	float: left;
+	width: 670px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#centerblock #form3 p {
+	font-size: 16px;
+	color: #B0D096;
+}
+#centerblock #form3 p img {
+	padding-top: 0px;
+	padding-right: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+
+#centerblock #form #hislider1 {
+	clear: both;
+	float: left;
+	margin-top: 0px;
+}
+
+#centerblock #form p {
+	font-size: 16px;
+	color: #FFF;
+}
+#centerblock #form2 p {
+	font-size: 16px;
+	color: #FFF;
+}
+
+#centerblock #form2 p img {
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+#centerblock #form h4 {
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	font-weight: normal;
+}
+#container #centerblock #form #bizlink {
+	background-color: #933;
+	float: left;
+	height: 20px;
+	width: 400px;
+	padding-top: 3px;
+	padding-right: 4px;
+	padding-bottom: 3px;
+	padding-left: 4px;
+}
+
+.csslider1 {
+	display: inline-block;
+	position: relative;
+	max-width: 400px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.right-images{
+	width: 270px;
+	float: left;
+}
+
+.jotform-form li{
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	height: 70px;
+	width: 100%;
+	line-height: 2;
+	border: 1px solid #303030;
+	color: #fff;
+}
+.right {
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.red {
+	color: #F00;
+}
+h6 {
+	font-size: 16px;
+	color: #F00;
+	font-variant: small-caps;
+}
+#clear {
+	height: 40px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+.smtext {
+	font-size: 14px;
+}

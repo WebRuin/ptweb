@@ -1,0 +1,106 @@
+body { background-image:url(../images/h_bg.jpg);
+background-repeat:repeat-x;
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+}
+.gray_bold_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #585858;
+	font-weight: bold;
+}
+.blue_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #2133B9;
+}
+.green_bold_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #316600;
+}
+.b_1_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+}
+.b_1_text2 {
+	font-family: "Gill Sans MT Ext Condensed Bold";
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+}
+
+.b_2_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #000;
+}
+.normal_bold_text {
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+}
+.notmal_text2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+}
+
+.notmal_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+.orange_text {
+	font-family: verdana;
+	font-size: 12px;
+	color: #df7e00;
+}
+.white_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #F4F3C7;
+	font-weight: bold;
+}
+.green_twxt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2a5300;
+}
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #CCC;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+.black_bold-txt {
+	color: #000000;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.tan {
+	font-size: 14px;
+	color: #F4F3C7;
+}

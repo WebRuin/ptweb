@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Brian's Custom Test</title>
+  <meta name="description" content="Brian's Custom Test">
+  <meta name="author" content="SitePoint">
+  <link href='https://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/swipebox.min.css?v=1.0">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <h1 class="h1-header">Brian's Custom</h1>
+  <h3 class="h3-header">All things motercycle and more...</h3>
+
+  <a href="images/IMG_9382.PNG" title="The rusty beginning ....." class="lb_bike-build"><img src="images/IMG_9382.PNG" height="200px" alt="The rusty beginning ....." /></a>
+  <a href="images/IMG_7445.JPG" title="After the frame was painted I swapped out for these forks to keep a traditional axle position." class="lb_bike-build"></a>
+  <a href="images/IMG_9005.JPG" title='I took a front 19" wheel and machines OEM parts to create a rear.' class="lb_bike-build"></a>
+  <a href="images/image1.JPG" title='I took a front 19" wheel and machines OEM parts to create a rear.' class="lb_bike-build"></a>
+  <a href="images/image2.JPG" title='I took a front 19" wheel and machines OEM parts to create a rear.' class="lb_bike-build"></a>
+  <a href="images/IMG_9298.JPG" title="In the end I like the results and we hope you do too." class="lb_bike-build"></a>
+  <a href="images/IMG_9300.PNG" title="In the end I like the results and we hope you do too." class="lb_bike-build"></a>
+  <a href="images/IMG_9301.PNG" title="In the end I like the results and we hope you do too." class="lb_bike-build"></a>
+  <a href="images/IMG_9302.PNG" title="In the end I like the results and we hope you do too." class="lb_bike-build"></a>
+  <a href="images/IMG_9156.PNG" title=":)" class="lb_bike-build"></a>
+
+  <p>Click the image</p>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.swipebox.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script type="text/javascript">
+  ;( function( $ ) {
+
+  	$( '.swipebox' ).swipebox( {
+  		useCSS : true, // false will force the use of jQuery for animations
+  		useSVG : true, // false to force the use of png for buttons
+  		initialIndexOnArray : 0, // which image index to init when a array is passed
+  		hideCloseButtonOnMobile : false, // true will hide the close button on mobile devices
+  		hideBarsDelay : 3000, // delay before hiding bars on desktop
+  		videoMaxWidth : 1140, // videos max width
+  		beforeOpen: function() {}, // called before opening
+  		afterOpen: null, // called after opening
+  		afterClose: function() {}, // called after closing
+  		loopAtEnd: false // true will return to the first image after the last image is reached
+  	} );
+
+  } )( jQuery );
+  </script>
+</body>
+</html>

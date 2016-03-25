@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+p.phone-number{
+	display: block;
+	width: 100%;
+	color: #ff5a00;
+	font-weight: bold;
+	font-size: 2.5rem;
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#container {
+	width: 960px;
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+}
+
+#head {
+	background-color: #006790;
+	float: left;
+	height: 100px;
+	width: 960px;
+}
+#nav {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	color: #FFF;
+	background-color: #002736;
+	width: 960px;
+	float: left;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	text-align: center;
+}
+#nav ul {
+	width: 92%;
+}
+
+#list ul,
+#form-all ul{
+	list-style-type: none;
+}
+
+#footer {
+	height: 40px;
+	width: 937px;
+	clear: both;
+	float: left;
+	padding-top: 15px;
+	background-color: #006790;
+	border: thin double #333;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+}
+
+
+#nav ul li {
+	display: inline;
+	/* [disabled]text-align: center; */
+}
+#nav ul li a {
+	color: #FFF;
+	/* [disabled]text-align: center; */
+}
+
+#main {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #333;
+	float: left;
+	width: 940px;
+	margin: 10px;
+}
+
+#main #list {
+	background-color: #DADADA;
+	width: 937px;
+	padding-top: 10px;
+	border: thin double #333;
+	float: left;
+	margin-bottom: 30px;
+	clear: both;
+}
+#main #templates {
+	width: 940px;
+	clear: both;
+	float: left;
+}
+
+#main #list h2 {
+	margin-left: 10px;
+}
+#main #list ul {
+	margin-right: 10px;
+	margin-left: 10px;
+	list-style-position: inside;
+}
+
+
+#main ul li {
+	margin-top: 9px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #333;
+}
+#main #list p {
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+#list h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #333;
+	margin-left: 10px;
+}
