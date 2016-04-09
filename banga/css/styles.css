@@ -7,7 +7,11 @@ a {
   color: #fff;
 }
 
-.header {
+.relative{
+  position: relative;
+}
+
+header {
   background: #1D1005;
   border-bottom: #fff 5px solid;
   margin: -20px -16px 3rem -14px;
@@ -18,6 +22,10 @@ a {
   background: url('../img/sunroom2.jpg') no-repeat;
   background-size: cover;
   overflow: hidden;
+}
+
+.full-height-pic {
+  height: 100vh;
 }
 
 .full-height {
@@ -31,10 +39,19 @@ a {
 }
 
 .summary {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   padding-top: 1.5rem;
 }
 
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #1D1005;
+  border-top: #fff 1px solid;
+  margin: -20px -16px 0 -14px;
+  padding: 2rem;
+}
 
 /**********************************************
 //  MEDIA QUERY
@@ -46,9 +63,18 @@ a {
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
 
@@ -58,9 +84,18 @@ a {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
 
@@ -70,9 +105,18 @@ a {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
 
@@ -83,9 +127,18 @@ a {
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
 
@@ -95,9 +148,18 @@ a {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
 
@@ -107,9 +169,18 @@ a {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
 
@@ -120,9 +191,18 @@ a {
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
 
@@ -132,9 +212,18 @@ a {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
 
@@ -144,9 +233,18 @@ a {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
 
@@ -157,9 +255,18 @@ a {
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
 
@@ -169,9 +276,18 @@ a {
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
 
@@ -181,8 +297,17 @@ a {
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
-    .full-height {
+    .full-height-pic {
       height: 60vh;
       width: 100vw;
+    }
+
+    .full-height {
+      height: 100vh;
+    }
+
+    .summary {
+      font-size: 1.1rem;
+      padding-top: 1.5rem;
     }
 }
