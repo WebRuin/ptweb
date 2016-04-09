@@ -1,0 +1,188 @@
+body {
+  background: #8B4513;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+.header {
+  background: #1D1005;
+  border-bottom: #fff 5px solid;
+  margin: -20px -16px 3rem -14px;
+  padding: 2rem;
+}
+
+.sunroom-background-picture {
+  background: url('../img/sunroom2.jpg') no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.phone-number, .address {
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+  display: inline;
+}
+
+.summary {
+  font-size: 1.7rem;
+  padding-top: 1.5rem;
+}
+
+
+/**********************************************
+//  MEDIA QUERY
+//********************************************/
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .full-height {
+      height: 60vh;
+      width: 100vw;
+    }
+}
