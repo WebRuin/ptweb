@@ -1,0 +1,606 @@
+body {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align: left;
+}
+p {
+	text-align:justify;
+	line-height:19px;
+	padding:0px;
+	margin:0px;
+}
+h2 {
+	padding:0px 0 10px 0;
+	margin:0px;
+	color:#000;
+	font-size:20px;
+	font-weight:normal;
+}
+.clear {
+	clear:both;
+}
+#wrap {
+	width:980px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#top {
+	height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(images/mossyoak.jpg);
+	background-repeat: repeat-x;
+}
+
+#graphics {
+	clear: both;
+	float: left;
+	width: 960px;
+	text-align: center;
+}
+.top_corner {
+	width:980px;
+	height:15px;
+	background:url(images/top_bg.gif) no-repeat center bottom;
+}
+#main_container {
+	width:980px;
+}
+#header {
+	width:980px;
+	height:140px;
+	float: right;
+	clear: both;
+	font-size: 24px;
+	font-weight: bold;
+}
+.head {
+	padding-left: 200px;
+}
+#logo {
+	float:right;
+	clear: none;
+	width: 550px;
+	font-size: 18px;
+	font-style: italic;
+	color: #333;
+	padding-top: 10px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+/*----------------------menu-------------------------*/
+#menu {
+	width:530px;
+	float:right;
+	padding:40px 0 0 0;
+}
+#menu ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	display:block;
+}
+#menu ul li {
+	list-style:none;
+	display:inline;
+	float:left;
+	width:auto;
+	padding:0px;
+	font-size:12px;
+}
+#menu ul li a {
+	float:left;
+	text-decoration:none;
+	padding:0px 10px 0 10px;
+	margin:0px 4px 0 4px;
+	color:#000;
+	text-align:center;
+	height:31px;
+	line-height:31px;
+}
+#menu ul li a:hover {
+	background-color:#b52025;
+	color:#fff;
+}
+#menu ul li a.current {
+	float:left;
+	text-decoration:none;
+	padding:0px 10px 0 10px;
+	margin:0px 4px 0 4px;
+	color:#fff;
+	text-align:center;
+	height:31px;
+	line-height:31px;
+	background-color:#b52025;
+}
+/*-----------------middle_banner----------------------------*/
+.middle_banner {
+	width:980px;
+	clear: both;
+	float: right;
+}
+.txtpad {
+	padding: 20px;
+}
+#signin {
+	clear: both;
+	float: left;
+	height: 10px;
+	width: 50px;
+	font-size: 10px;
+	color: #FFF;
+	background-color: #9D9566;
+	padding: 5px;
+	border: 2px solid #000;
+}
+/*----------------------slider---------------------------*/
+.featured_slider {
+	width:204px;
+	float:left;
+	clear: both;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #DCCDB0;
+}
+.grn {
+	color: #9D9566;
+}
+#globnav {
+	clear: both;
+	float: right;
+	width: 520px;
+	height: 40px;
+}
+.bld {
+	font-weight: bold;
+}
+#slideshow {
+	float: right;
+	clear: right;
+	width: 770px;
+}
+ul, li {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+/** ----------------------------------------------------- **/
+#featured_border {
+	position: relative;
+	border: none;
+	padding:0px;
+	height:280px;
+	margin: 0px;
+}
+#featured_wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#featured_images {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#featured_images li {
+	float: left;
+}
+#featured_positioner_desc {
+	width:965px;
+	height: 280px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#featured_wrapper_desc {
+	width: 100%;
+	height:280px;
+	position: relative;
+	overflow: hidden;
+}
+#featured_desc {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding:0px;
+	margin:0px;
+}
+#featured_desc li {
+	width: 965px;
+	float: left;
+	padding:0px;
+	margin:0px;
+}
+#featured_desc li div {
+	margin:0px 0 0px 0px;
+	padding:10px;
+	width:945px;
+	background: url(images/featured-desc-bg.png);
+}
+#featured_desc li h2 {
+	color:#FFFFFF;
+	font-size:18px;
+	padding:0px 0 5px 0;
+	margin:0px;
+}
+#featured_desc li p {
+	color:#FFFFFF;
+	font-size:12px;
+	padding:0px 0 10px 0;
+	margin:0px;
+	line-height:18px;
+}
+#featured_buttons {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: auto;
+	padding:0;
+	list-style:none;
+}
+#featured_buttons li {
+	width: 22px;
+	height: 22px;
+	background: url(images/featured-button-off.png);
+	float: left;
+	margin-left: 3px;
+	text-align:left;
+	font-size:12px;
+	color:#FFFFFF;
+	line-height:22px;
+	cursor: pointer;
+}
+#featured_buttons li.clicked {
+	background: url(images/featured-button-on.png);
+}
+/**/
+
+
+/*-------------------------------*/
+.center_content {
+	width:965px;
+	clear:both;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	float: none;
+	padding-bottom: 20px;
+	margin: auto;
+}
+.center_content_pages {
+	width:960px;
+	clear:both;
+	margin:auto;
+	padding:20px 0 20px 0;
+	background:url(images/center_bg_pages.gif) no-repeat center top;
+}
+.home_section_left {
+	width:270px;
+	height:auto;
+	float:left;
+	margin-top: 0;
+	margin-right: 14px;
+	margin-bottom: 0;
+	margin-left: 14px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #DCCDB0;
+	clear: none;
+}
+.home_section_left2 {
+	width:270px;
+	height:auto;
+	float:right;
+	margin-top: 0;
+	margin-right: 14px;
+	margin-bottom: 0;
+	margin-left: 14px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #DCCDB0;
+	clear: none;
+}
+.home_section_left3 {
+	width:140px;
+	height:auto;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+	margin-top: 30px;
+	clear: none;
+}
+#wrap #main_container .center_content .home_section_left4 {
+	float: right;
+	width: 210px;
+}
+
+.center_content .home_section_left3 p {
+	padding-bottom: 5px;
+	margin-top: 5px;
+}
+#spacer {
+	float: left;
+	height: 50px;
+	width: 30px;
+}
+.home_section_left p {
+	clear:both;
+}
+.home_section_left p span {
+	font-weight:bold;
+}
+img.home_section_icon {
+	width:63px;
+	float:left;
+}
+h2.home_title {
+	width:100%;
+	float:left;
+	font-size:20px;
+	margin:0px;
+	color:#000;
+	font-weight: bold;
+}
+.signin {
+	font-size: 14px;
+	color: #000;
+}
+.home_subtitle {
+	width:190px;
+	float:left;
+	padding:0px 0 0px 10px;
+	font-size:12px;
+	color:#666;
+}
+.home_section_thumb {
+	float:left;
+	clear:both;
+	padding:2px;
+	text-align:left;
+	margin:10px 0 10px 0;
+	border:1px #dcdcdc solid;
+}
+a.more {
+	float:right;
+}
+img.projects {
+	float:left;
+	padding:2px;
+	margin:0 10px 0 0;
+	border:1px #dcdcdc solid;
+}
+.left_content {
+	width:660px;
+	float:left;
+	padding:0;
+}
+.left_block {
+	width:295px;
+	float:left;
+	padding:20px 20px 10px 15px;
+}
+.left_block_wide {
+	width:625px;
+	float:left;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.financial-application-form {
+	width:530px;
+	float:left;
+	padding:20px 20px 10px 15px;
+}
+.financial-application-form p {
+	margin-bottom:30px;
+}
+.testimonials {
+	width:360px;
+	float:right;
+	padding:20px 20px 0 0;
+}
+.block_wide {
+	width:625px;
+	float:left;
+	margin:10px 20px 10px 15px;
+	padding-top:10px;
+	border-top:1px #ededed solid;
+}
+.wide_content {
+	width:930px;
+	clear:both;
+	padding:10px 15px 0 15px;
+}
+.right_block {
+	width:230px;
+	float:right;
+	padding-top: 15px;
+}
+img.pic {
+	border:3px #22496a solid;
+	margin:0 0 10px 0;
+}
+.home_news a {
+	font-size:12px;
+	color:#c82127;
+	text-decoration:none;
+	border-bottom:1px #bcbcbc dotted;
+	padding:10px 0 5px 12px;
+	display:block;
+	float:left;
+	background:url(images/arrow.gif) no-repeat left top;
+	background-position: 0px 13px;
+}
+.home_news a:hover {
+	text-decoration:underline;
+}
+input.newsletter_input {
+	background-color:#FFF;
+	border:1px #e2c7c8 solid;
+	width:150px;
+	height:16px;
+	padding:4px;
+	float:left;
+}
+form#newsletter {
+	padding:0px;
+}
+input.newsletter_submit {
+	background-color:#62AF2F;
+	color:#FFFFFF;
+	text-align:center;
+	float:left;
+	border:1px #fdeaeb solid;
+	cursor:pointer;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 10px;
+	padding: 1px;
+	font-size: 10px;
+}
+.testbox {
+	padding:20px 10px 5px 0;
+	margin:0;
+	border-bottom:1px #ededed solid;
+}
+.testbox p {
+	font-style:italic;
+}
+/*-----------------------contact_form-------------------*/
+.form {
+	width:500px;
+	height:auto;
+	float:left;
+	padding:20px 10px 10px 20px;
+	border:1px #fdeaeb solid;
+}
+.form_row {
+	width:425px;
+	float:left;
+	clear:both;
+	padding:7px 0 7px 0;
+}
+label {
+	width:100px;
+	float:left;
+	padding:3px 15px 0 0;
+	color:#b52025;
+	text-align:right;
+	font-weight:bold;
+}
+input.main_input {
+	background-color:#fdeaeb;
+	border:1px #e2c7c8 solid;
+	width:300px;
+	height:18px;
+	padding:4px;
+	float:left;
+}
+textarea.main_textarea {
+	background-color:#fdeaeb;
+	border:1px #e2c7c8 solid;
+	width:300px;
+	height:120px;
+	padding:4px;
+	float:left;
+}
+input.submit {
+	background-color:#b52025;
+	color:#FFFFFF;
+	text-align:center;
+	float:right;
+	padding:3px 10px 2px 10px;
+	margin:0px 0 0 0;
+	border:1px #b52025 solid;
+	cursor:pointer;
+}
+/*-----------------------------footer------------------*/
+.footer {
+	clear:both;
+	background-color: #62AF2F;
+	width: 100%;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.copyright {
+	float:left;
+	padding:30px 0 0 15px;
+	color:#6996c0;
+}
+.copyright a {
+	color: #2A1C11;
+	text-decoration:none;
+}
+.footer_links {
+	color: #FFF;
+}
+.footer_links a {
+	color: #FFF;
+}
+.footer_links a:hover {
+	color: #FFF;
+}
+#foot {
+	clear: both;
+	float: none;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 20px;
+	background-image: url(images/mossyoak_forestfloor.jpg);
+	background-repeat: repeat;
+}
+#foot p {
+	text-align: center;
+	color: #F00;
+	font-weight: bolder;
+	font-size: 16px;
+	padding-top: 60px;
+}
+
+
+.center_content .home_section_left #promo {
+	background-color: #9D9566;
+	padding: 5px;
+	height: 10px;
+	width: 140px;
+	border: 2px solid #000;
+	font-size: 10px;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+.ital {
+	font-style: italic;
+}
+.bld {
+	font-weight: bold;
+}
+#logowrap {
+	clear: none;
+	float: left;
+	width: 550px;
+}
+#btext {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+#btext p {
+	text-align: center;
+}
