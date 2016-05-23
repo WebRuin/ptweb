@@ -225,12 +225,19 @@
 }
 
 .footer {
-	height: 70px;
-	width: 100%;
-	line-height: 2;
-	border: 1px solid #303030;
 	color: #fff;
+	clear: both;
+	height: 70px;
+	width: 1000px;
+	line-height: 2;
+	padding: 0.5rem;
+	border-top: none;
+	border: 1px solid #303030;
 }
+.footer > p {
+	text-align: center;
+}
+
 .right {
 	text-align: right;
 	padding-top: 0px;
