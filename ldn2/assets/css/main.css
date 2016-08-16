@@ -2666,8 +2666,9 @@
 		}
 
 		dl.alt dt {
-			display: block;
-			width: 3em;
+			display: flex;
+			justify-content: space-between;
+			width: 5em;
 			margin: 0;
 			clear: left;
 			float: left;
@@ -2735,6 +2736,10 @@
 
 	footer.major {
 		margin-top: 3em;
+	}
+
+	#footer > section {
+		margin: 0 auto;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -3374,8 +3379,9 @@
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: #476ba9;
 						box-shadow: none;
+						color: #fff;
 					}
 
 		#nav.alt {
@@ -3669,7 +3675,7 @@
 
 			#main > .main:first-child {
 				border-top: 0;
-				color: #363636;
+				color: #636363;
 				font-weight: 400;
 			}
 
