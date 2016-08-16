@@ -16,6 +16,20 @@
 	font-style: italic;
 }
 
+.center{
+	margin: auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.grey-bg {
+	width: 50%;
+	padding:13px;
+	display: block;
+	color: #ad0909;
+	background-color: #636363;
+}
+
 #container {
 	width: 1000px;
 	margin-top: 10px;
@@ -166,9 +180,11 @@
 }
 
 #centerblock #form #hislider1 {
+	height: inherit;
+	width: inherit;
 	clear: both;
 	float: left;
-	margin-top: 0px;
+	margin: 0 25%;
 }
 
 #centerblock #form p {

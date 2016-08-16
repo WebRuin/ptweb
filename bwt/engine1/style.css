@@ -1,12 +1,10 @@
 
 /* ------------- General ------------- */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&amp;subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
 .csslider1 {
   display: inline-block;
   position: relative;
-  max-width: 360px;
-  
-  width: 100%;
+  width: inherit;
   margin-top: 10px;
 }
 .csslider1 > .cs_anchor {
@@ -19,7 +17,7 @@
   line-height: 0;
   margin: 0 auto;
   padding: 0;
-  
+
   overflow: hidden;
   white-space: nowrap;
 }
@@ -110,11 +108,11 @@
   top: 0;
   opacity: 0;
   z-index: 1;
-  
+
   -webkit-transition: opacity 2000ms ease;
   transition: opacity 2000ms ease;
 
-  
+
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
@@ -189,7 +187,7 @@
   box-shadow: 0 0 0 1px #ffffff;
 }
 
-/* hide description & bullets on mobile devices */
+/* hide description &amp; bullets on mobile devices */
 @media
 only screen and (max-width: 480px),
 only screen and (-webkit-max-device-pixel-ratio: 2)      and (max-width: 480px),
@@ -197,7 +195,7 @@ only screen and (   max--moz-device-pixel-ratio: 2)      and (max-width: 480px),
 only screen and (     -o-max-device-pixel-ratio: 2/1)    and (max-width: 480px),
 only screen and (        max-device-pixel-ratio: 2)      and (max-width: 480px),
 only screen and (                max-resolution: 192dpi) and (max-width: 480px),
-only screen and (                max-resolution: 2dppx)  and (max-width: 480px) { 
+only screen and (                max-resolution: 2dppx)  and (max-width: 480px) {
   .csslider1 > .cs_description,
   .csslider1 > .cs_bullets {
     display: none;

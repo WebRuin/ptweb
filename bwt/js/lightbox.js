@@ -12,7 +12,7 @@
 
 // Uses Node, AMD or browser globals to create a module.
 (function (root, factory) {
-    if (typeof define === 'function' && define.amd) {
+    if (typeof define === 'function' &amp;&amp; define.amd) {
         // AMD. Register as an anonymous module.
         define(['jquery'], factory);
     } else if (typeof exports === 'object') {
@@ -246,10 +246,10 @@
         maxImageHeight = windowHeight - self.containerTopPadding - self.containerBottomPadding - 120;
 
         // Check if image size is larger then maxWidth|maxHeight in settings
-        if (self.options.maxWidth && self.options.maxWidth < maxImageWidth) {
+        if (self.options.maxWidth &amp;&amp; self.options.maxWidth < maxImageWidth) {
           maxImageWidth = self.options.maxWidth;
         }
-        if (self.options.maxHeight && self.options.maxHeight < maxImageWidth) {
+        if (self.options.maxHeight &amp;&amp; self.options.maxHeight < maxImageWidth) {
           maxImageHeight = self.options.maxHeight;
         }
 
@@ -363,7 +363,7 @@
 
     // Enable anchor clicks in the injected caption html.
     // Thanks Nate Wright for the fix. @https://github.com/NateWr
-    if (typeof this.album[this.currentImageIndex].title !== 'undefined' &&
+    if (typeof this.album[this.currentImageIndex].title !== 'undefined' &amp;&amp;
       this.album[this.currentImageIndex].title !== '') {
       this.$lightbox.find('.lb-caption')
         .html(this.album[this.currentImageIndex].title)
@@ -377,7 +377,7 @@
         });
     }
 
-    if (this.album.length > 1 && this.options.showImageNumberLabel) {
+    if (this.album.length > 1 &amp;&amp; this.options.showImageNumberLabel) {
       var labelText = this.imageCountLabel(this.currentImageIndex + 1, this.album.length);
       this.$lightbox.find('.lb-number').text(labelText).fadeIn('fast');
     } else {
@@ -423,13 +423,13 @@
     } else if (key === 'p' || keycode === KEYCODE_LEFTARROW) {
       if (this.currentImageIndex !== 0) {
         this.changeImage(this.currentImageIndex - 1);
-      } else if (this.options.wrapAround && this.album.length > 1) {
+      } else if (this.options.wrapAround &amp;&amp; this.album.length > 1) {
         this.changeImage(this.album.length - 1);
       }
     } else if (key === 'n' || keycode === KEYCODE_RIGHTARROW) {
       if (this.currentImageIndex !== this.album.length - 1) {
         this.changeImage(this.currentImageIndex + 1);
-      } else if (this.options.wrapAround && this.album.length > 1) {
+      } else if (this.options.wrapAround &amp;&amp; this.album.length > 1) {
         this.changeImage(0);
       }
     }
