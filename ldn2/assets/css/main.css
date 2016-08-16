@@ -63,6 +63,7 @@
 		width: 100%;
 		height: 85vh;
 		overflow: hidden;
+		z-index: -3;
 	}
 
 	.header-image {
@@ -70,7 +71,7 @@
 		top: 0;
 		left: 0;
 		width: 100vw;
-		z-index: -1;
+		z-index: -2;
 	}
 
 	ul.list li {
@@ -3144,12 +3145,18 @@
 	}
 
 		#header h1 {
+			color: #fff;
 			margin: 0 0 0.25em 0;
+			text-shadow: #0442ac 2px 2px 0;
 		}
 
 		#header p {
-			font-size: 1.25em;
-			letter-spacing: -0.025em;
+			color: #fff;
+	    padding: 2rem;
+	    font-size: 1.25em;
+	    margin-bottom: -1rem;
+	    letter-spacing: -0.025em;
+	    background-color: rgba(0,0,0,0.6);
 		}
 
 		#header.alt {
@@ -3293,6 +3300,9 @@
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+		-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3418,7 +3428,17 @@
 			color: #636363;
 		}
 
-		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+		#main h2 {
+			color: #333;
+	    text-align: center;
+	    font-weight: bold;
+		}
+
+		.center-text {
+			text-align: center;
+		}
+
+		#main h1, #main h3, #main h4, #main h5, #main h6 {
 			color: #636363;
 		}
 
@@ -3649,6 +3669,9 @@
 
 			#main > .main:first-child {
 				border-top: 0;
+				color: #fff;
+				font-weight: 400;
+				background-color: #999;
 			}
 
 			#main > .main > .image.main:first-child {
