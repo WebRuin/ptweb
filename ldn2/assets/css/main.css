@@ -3422,6 +3422,11 @@
 				width: 45%;
 			}
 
+			#nav.alt ul li a,
+			#nav ul li a {
+				font-size: 0.65rem;
+			}
+
 				#nav + #main {
 					padding-top: 0;
 				}
